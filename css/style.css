@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+
+	nav {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		min-height: 8vh;
+		font-family: 'Times New Roman', cursive;
+		background: #0d6efd;
+	}
+	.logo{
+		caption: white;
+		letter-spacing: 3px;
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+	.nav_links{
+		display: flex;
+		justify-content: space-around;
+		transition: 0.4s;
+		width: 40%;
+	}
+	.nav_links li {
+		list-style: none;
+	}
+	.nav_links a {
+		color: blue;
+		text-decoration: none;
+		letter-spacing: 3px;
+		font-size: 15px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.shop_img{
+		display: block;
+		margin: 0 auto;
+	}
+	@keyframes navLinksFade{
+		from{
+			opacity: 0;
+			transform: translateX(50px);
+		}
+		to {
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
+	.swap .line-1 {
+		opacity: 1;
+		transform: rotate(-45deg) translate(-5px, 6px);
+	} 
+	.swap .line-2 {
+		opacity: 0;
+	}
+	.swap .line-3 {
+		opacity: 1;
+		transform: rotate(45deg) translate(-5px, -6px);
+	}
+	a {
+		text-decoration: none ;
+	}
+	.menu__list li{
+		list-style: none;
+	}
+	.menu__list{
+		padding: 0;
+	}
+
+
+
+
+	.img_1{
+		display: block;
+		margin: 0 auto;
+		width: 500px;
+		height: 400px;
+	}
+	.img_2{
+		display: block;
+		margin: 0 auto;
+		width: 500px;
+		height: 350px;
+	}
+	
+	.tex_2{
+		text-align: justify-all;
+		font-size: 20px;
+	}
+	.tex_3{
+		text-align: justify-all;
+		font-size: 20px;
+	}
