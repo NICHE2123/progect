@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+
+	nav {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		min-height: 8vh;
+		font-family: 'Times New Roman', cursive;
+		background: #0d6efd;
+	}
+	.logo{
+		caption: white;
+		letter-spacing: 3px;
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+	.nav_links{
+		display: flex;
+		justify-content: space-around;
+		transition: 0.4s;
+		width: 30%;
+	}
+	.nav_links li {
+		list-style: none;
+	}
+	.nav_links a {
+		color: blue;
+		text-decoration: none;
+		letter-spacing: 3px;
+		font-size: 15px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.img8{
+		display: block;
+		margin: 0 auto;
+		width: 350px;
+		height: 350px;
+	}
